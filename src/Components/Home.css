@@ -1,0 +1,48 @@
+.home{
+   flex: .54;
+   margin-top: 8vh;
+   max-height: 84vh;
+   background-color:white ;
+   overflow-y: scroll;
+}
+.home h2{
+    margin-right: 70%;
+}
+.home hr{
+    color: white;
+}
+.dot {
+    position: absolute;
+    top: 12vh;
+    left: 48.55vw;
+    background: transparent;
+    opacity: .4;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(116, 136, 127);
+    border-radius: 50%;
+    
+  }
+  .intro{
+    padding-top: 20px;  
+    padding-left: 3vw;  
+    max-width: 40vw;
+  }
+
+  .intro p{
+      color: rgb(39, 39, 35);
+  }
+  .description{
+      padding-top: 100px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .description h1{
+      font-weight: lighter;
+      font-size: 20px;
+      color: rgb(39, 39, 35);
+  }
+  .description p1{
+      font-size: 22px;
+      font-weight: lighter;
+  }

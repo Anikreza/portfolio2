@@ -2,31 +2,23 @@
    flex: .54;
    margin-top: 8vh;
    max-height: 84vh;
-   background-color:white ;
    overflow-y: scroll;
+   background-color:rgb(238, 241, 236) ;
 }
 .home h2{
     margin-right: 70%;
 }
 .home hr{
-    color: white;
+    background: linear-gradient(to right, rgb(253, 253, 253),rgb(168, 167, 167), rgb(255, 255, 255));
+    height: 1px;
+    border-style: hidden;
 }
-.dot {
-    position: absolute;
-    top: 12vh;
-    left: 48.55vw;
-    background: transparent;
-    opacity: .4;
-    height: 25px;
-    width: 25px;
-    background-color: rgb(116, 136, 127);
-    border-radius: 50%;
-    
-  }
+
   .intro{
     padding-top: 20px;  
     padding-left: 3vw;  
     max-width: 40vw;
+
   }
 
   .intro p{
@@ -45,4 +37,70 @@
   .description p1{
       font-size: 22px;
       font-weight: lighter;
+  }
+.makeline{
+    padding-right: 10vw;
+    border-right-style: inset;
+    border-width: thin;
+    border-color:rgb(216, 210, 210);
+    height: 15vh; 
+}
+.dipanim{
+    animation: mydip 8s infinite;
+    -moz-animation: mydip 8s infinite;
+    -webkit-animation: mydip 8s infinite;
+    -o-animation: mydip 8s infinite;    
+    color: rgb(5, 66, 5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes mydip {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {font-weight: lighter ;}
+    to {font-weight:bolder ;}
+  }
+   @-moz-keyframes mydip {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {font-weight: lighter ;}
+    to {font-weight:bolder ;}
+  }
+   @-webkit-keyframes mydip {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {font-weight: lighter ;}
+    to {font-weight:bolder ;}
+  }
+   @-o-keyframes mydip {
+    from {opacity: 0 ;}
+    to {opacity: 1;}
+    from {font-weight: lighter ;}
+    to {font-weight:bolder ;}
   }

@@ -7,12 +7,11 @@ import ResumeRight from './ResumeRight'
 const Resume = () => {
     return (
         <div className='resume'>
-            <div style={{textAlign:'center', marginRight:'74%'}}>
-                 <span class="dot"></span>
-                 <h2>RESUME</h2>
-                 <hr style={{width:'385%', color:'white'}}/>
+            <div className="dotopacity2">      
+                 <h2 style={{fontWeight:'normal', color:'black', width:'110px'}}>RESUME</h2>      
             </div> 
-
+           
+            
             <div className='resume-main'>
              <ResumeLeft/>
              <ResumeRight/>

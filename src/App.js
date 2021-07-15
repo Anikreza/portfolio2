@@ -5,13 +5,16 @@ import LeftMost from './Components/LeftMost';
 import Left from './Components/Left';
 import Home from './Components/Home';
 import Resume from './Components/Resume';
+import {Animated} from "react-animated-css";
 
 function App() {
   return (
     <div className="App">
            <Router> 
+               
              <LeftMost/>     
-             <Left/>                
+             <Left/> 
+                        
        <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/home'  component={Home} />

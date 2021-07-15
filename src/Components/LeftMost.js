@@ -6,32 +6,32 @@ import { CgProfile } from 'react-icons/cg';
 import { RiProfileLine } from 'react-icons/ri';
 import { CgBriefcase } from 'react-icons/cg';
 import { AiOutlineMail } from 'react-icons/ai';
-import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiOutlineFacebook } from 'react-icons/ai';
-import { AiOutlineGithub } from 'react-icons/ai';
+import {Animated} from "react-animated-css";
 
 const LeftMost = () => {
     return (
         <div className='leftmost'>
+            <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true} >
             <div className='links'> 
             
-            <Link className='hoveranim' path to="/home" > <AiOutlineHome style={{marginLeft:'12px'}} size='25px'/>
-            <p1> -</p1>  HOME </Link> 
+            <NavLink className='hoveranim' to="/home"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <AiOutlineHome style={{marginLeft:'12px'}} size='25px'/>
+            <p1> -</p1>  HOME </NavLink> 
             <hr width='60px'/>
             
-            <Link className='hoveranim' path to="/about" > <CgProfile style={{marginLeft:'12px'}} size='25px'/>
-            <p1> -</p1> ABOUT </Link>
+            <NavLink className='hoveranim' to="/about"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <CgProfile style={{marginLeft:'12px'}} size='25px'/>
+            <p1> -</p1> ABOUT </NavLink>
             <hr width='60px'/>
-            <Link className='hoveranim' path to="/resume" > <RiProfileLine style={{marginLeft:'12px'}}size='25px'/>
-            <p1> -</p1> RESUME</Link>
+            <NavLink className='hoveranim'  to="/resume"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <RiProfileLine style={{marginLeft:'12px'}}size='25px'/>
+            <p1> -</p1> RESUME</NavLink>
             <hr width='60px'/>
-            <Link className='hoveranim' path to="/works" > <CgBriefcase style={{marginLeft:'12px'}}size='25px'/>
-            <p1> -</p1> WORKS </Link>
+            <NavLink className='hoveranim'  to="/works"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <CgBriefcase style={{marginLeft:'12px'}}size='25px'/>
+            <p1> -</p1> WORKS </NavLink>
             <hr width='60px'/>
-            <Link className='hoveranim' path to="/contact" > <AiOutlineMail style={{marginLeft:'12px'}}size='25px'/>
-            <p1> -</p1> CONTACT </Link>
+            <NavLink className='hoveranim' to="/contact"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <AiOutlineMail style={{marginLeft:'12px'}}size='25px'/>
+            <p1> -</p1> CONTACT </NavLink>
             
         </div>
+        </Animated>
         </div>
     )
 }

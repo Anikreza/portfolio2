@@ -11,12 +11,13 @@ const Left = () => {
     return (
         <div className='left'>
             <div className='profile'>
+          
                 <div className='photo'>
                     <img src={a}/>
                 </div>
-
+                
                   <div className='stylediv'></div>
-             
+                  <Animated animationIn="flash" animationOut="fadeOut" isVisible={true} >
                   <div className='info'>
                       <h2>Tanvir Reza Anik</h2>
                       <p className='infoanim'> Web Developer</p>   
@@ -30,7 +31,7 @@ const Left = () => {
                      <a className='left-footer' href='https://drive.google.com/file/d/1ZUnKgnpWHq4cVRB8YVNlU6meOLVpjLYp/view?usp=sharing'
                        target='blank'> Download CV</a>                   
                  </div>
-
+                 </Animated>
               
             </div>
         </div>

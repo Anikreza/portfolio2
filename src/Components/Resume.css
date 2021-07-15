@@ -2,39 +2,147 @@
     flex: .54;
     margin-top: 8vh;
     max-height: 84vh;
-    background-color:white ;
+    background-color: rgb(171, 202, 189) ;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 .resume-main{
     display: flex;
     justify-content: space-evenly;
+    animation: bounceInRight;
+    animation-duration: 2s;
 }
 
 h2{
     font-weight: lighter;
 }
+
+.resumeleft hr{
+    background: linear-gradient(to right, rgb(253, 253, 253),rgb(168, 167, 167), rgb(255, 255, 255));
+    height: 1px;
+    border-style: hidden;
+}
+.resumeright hr{
+    background: linear-gradient(to right, rgb(253, 253, 253),rgb(168, 167, 167), rgb(255, 255, 255));
+    height: 1px;
+    border-style: hidden;
+}
+
+.resume hr{
+    background: linear-gradient(to right, rgb(158, 185, 162), rgb(186, 219, 171));
+    height: 1px;
+    border-style: hidden;
+}
 .resumeleft{
+    font-family: Trebuchet MS;
+    background-image: linear-gradient(60deg, #c4dbc6,#fafafa,#fafafa, #f1fff2 );  
+    border-top-style: outset;
+    border-width: thin;
+    border-radius: 30px;
+    border-color: rgb(230, 227, 230);
     flex: .5;
     min-height: 70vh;
-    overflow-y: hidden;
+    
 }
 
 .resumeright{
+    font-family: Trebuchet MS;
+    background-image: linear-gradient(-60deg, #c4dbc6,#fafafa,#fafafa, #f1fff2 );    
+    border-top-style: outset;
     flex: .5;
     border-left-style: outset;
     border-width: thin;
+    border-color: rgb(230, 227, 230);
     overflow-y: hidden;
     min-height: 70vh;
+    border-radius: 30px;
 }
 
-h4{
-    margin-top: -1px;
+
+.education{
+    background-color: #f0e4e4; 
+    max-width: fit-content;
 }
 
-.left-box{
+.college{
+    background-color: #dbdff3;
+    max-width: fit-content;
+}
+
+.school{
+    background-color: #c0c0c0;
+}
+
+.circles{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledge{
+    float: left;
+    margin-left:3%;
+}
+
+.knowledge h4{
+   font-weight: lighter;
+   color: rgb(39, 39, 35);
+}
+
+.hide hr{
+   opacity: 0;
+}
+
+
+.dotopacity {  
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background: transparent;
+    opacity: .5;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(27, 59, 16),rgb(178, 185, 176), rgb(215, 223, 215)) ;
+     
+  }
+
+.dotopacity2 {  
+    margin-left: 20px;
+    background: transparent;
+    opacity: .5;
+    height: 25px;
+    width: 25px;
+    background: linear-gradient(90deg, rgb(27, 59, 16),rgb(178, 185, 176), rgb(215, 223, 215)) ;
+
+    border-radius: 50%;
+  }
+
+  .dot { 
   
-}
-.right-box{
+    background: transparent;
+    opacity: .8;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(48, 68, 59);
+    border-radius: 50%;
+  }
+
+  .dota { 
     
-}
+    background: transparent;
+    opacity: .8;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(117, 112, 112);
+    border-radius: 50%;
+    
+  }
+
+  .center{
+     
+      float: left;
+      margin-left: 28%;
+  }
+  .lang{
+      margin-top: 10px;
+  }

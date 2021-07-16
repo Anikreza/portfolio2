@@ -99,13 +99,88 @@
    .left-footer:hover{
     color: rgb(5, 66, 5);
    }
+   .info p1{
+       display: none;
+       font-size: 11px;
+       color: rgb(5, 66, 5);
+   }
 
 
 
 
 
 
+   @media screen and (max-width: 800px) {
 
+    .left{
+        flex: .35;
+        margin-top: 10vh;
+        background-color: transparent;
+    }
+    .photo{
+        margin-bottom: 30px;
+        height: 270px;
+    }
+    .photo img{
+       
+        width: 100%;
+    }
+    .profile{
+        margin-top: 10vh;
+        max-height: 30vh;
+    }
+   .info{
+      max-height: 10px;
+      max-width: 96px;
+      margin-top: -100px;
+   }
+   .info h2{
+       font-size: 13px;
+   }
+   .info p{
+       display: none;
+   }
+   .indo p1{
+       display: block;
+       
+   }
+   .bottom{
+       padding-top: 30px;
+   }
+
+   .left-footer{
+       padding-bottom: -30px;
+       font-size: 14px;
+   }
+      
+   }
+   @media screen and (max-width: 1000px){
+    .profile{
+        margin-top: 10vh;
+        max-height: 60vh;
+    }
+   .info{
+      max-height: 10px;
+      max-width: 296px;
+      margin-top: -100px;
+   }
+   .photo{
+    margin-bottom: 30px;
+    height: 430px;
+}
+
+.info h2{
+    font-size: 23px;
+}
+.info p1{
+    display: none;
+}
+.info p{
+    font-size: 14px;
+    display: block;
+}
+
+   }
 
 
 

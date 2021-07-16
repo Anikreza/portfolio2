@@ -6,6 +6,8 @@ import Left from './Components/Left';
 import Home from './Components/Home';
 import Resume from './Components/Resume';
 import {Animated} from "react-animated-css";
+import Work from './Components/Work';
+import About from './About';
 
 function App() {
   return (
@@ -16,12 +18,13 @@ function App() {
              <Left/> 
                         
        <Switch>
-          <Route path='/' exact component={Home}/>
-          <Route path='/home'  component={Home} />
-          <Route path='/about'/>
+          <Route path='/portfolio2/' exact component={Home}/>
+          <Route path='/about'  component={Home} />
+          <Route path='/blog'/>
           <Route path='/resume'component={Resume} />
           <Route path='/contact' />
-          <Route path='/works'/>
+          <Route path='/ind'/>
+          <Route path='/works' component={Work}/>
        </Switch>  
     </Router>  
     </div>

@@ -47,3 +47,8 @@
   }
 
   
+@media screen and (max-width: 800px) {
+  .leftmost{
+    margin-left: 0px;
+  }
+}

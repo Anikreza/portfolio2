@@ -16,9 +16,9 @@ const Home = () => {
             </Animated>
             <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true} >
              <div className='intro'>
-                 <p> Hello, I'm Tanvir Reza, a Front-end developer from Dhaka, Bangladesh. I
-                     have rich experience on working with ReactJs, Firebase, also  I'm 
-                     good at MySQL and  has the insights of PHP </p>
+                 <p> Hello, I'm Tanvir Reza Anik, a Front-end developer from Dhaka, Bangladesh. I'm
+                     comfortable working with ReactJs framework and Firebase as database, also, can
+                      go fine with MySQL and has made some vanilla PHP projects </p>
              </div>
              </Animated>
              <Animated animationIn="zoomInLeft" animationOut="fadeOut" isVisible={true} >

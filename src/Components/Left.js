@@ -20,7 +20,10 @@ const Left = () => {
                   <Animated animationIn="flash" animationOut="fadeOut" isVisible={true} >
                   <div className='info'>
                       <h2>Tanvir Reza Anik</h2>
-                      <p className='infoanim'> Web Developer</p>   
+                      <hr/>  
+                      <p className='infoanim'> Web Developer  </p>   
+                      <p1 > Web Developer  </p1>   
+                      
 
                      <div className='bottom'>
                          <a className='iconanim' href="https://www.facebook.com/Anikreza22/" target='blank'><AiOutlineFacebook size='20px'/></a>

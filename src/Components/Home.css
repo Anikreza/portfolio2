@@ -3,7 +3,7 @@
    margin-top: 8vh;
    max-height: 84vh;
    overflow-y: scroll;
-   background-color:rgb(238, 241, 236) ;
+   background-color:rgb(255, 255, 255) ;
 }
 .home h2{
     margin-right: 70%;
@@ -53,6 +53,30 @@
     color: rgb(5, 66, 5);
 }
 
+
+@media screen and (max-width: 800px) {
+    .home{
+        flex: .65;
+        background-image: linear-gradient(to right, rgb(242, 250, 239), rgb(255, 255, 255),rgb(248, 255, 235));;
+    }
+    .intro{
+        padding-left: 8vw; 
+    }
+    .intro p{
+        font-size: 12px;
+    }
+    .description{
+        padding-left: 30px;
+        padding-top: 50px;
+        max-width: 130px;
+    }
+    .description h1{
+        font-size: 14px;
+    }
+    .description p1{
+        font-size: 12px;
+    }
+}
 
 
 

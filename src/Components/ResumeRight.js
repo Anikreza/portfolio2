@@ -25,20 +25,20 @@ const ResumeRight = () => {
                       <span style={{color:'grey',fontSize:'12px', fontWeight:'lighter',paddingTop:'5px'}}>
                         Dhaka, Bangladesh 
                       </span> 
-                      <span style={{color:'#13541b',fontSize:'16px',paddingTop:'5px'}}> Bachelor in CSE</span>
+                      <span  style={{color:'#13541b',fontSize:'16px',paddingTop:'5px'}}> <p1> Bachelor in CSE </p1></span>
                    </h2>  
                    </p> 
              </div>
              </Animated>
              <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true} >
              <div className='college'>
-             <p style={{color:'rgb(39, 39, 35)', borderWidth:'thin', marginTop:'130px', opacity:'1'}}>2012-2014 
+             <p style={{color:'rgb(39, 39, 35)', borderWidth:'thin', Width:'auto', marginTop:'130px', opacity:'1'}}>2012-2014 
                    <h2 style={{color:'#111a4f',fontWeight:'lighter',maxWidth:'260px',marginTop:'30px', float:'right', fontSize:'23px', marginRight:'20px', display:'flex',flexDirection:'column'}}>
                        Bangladesh Navy College
                       <span style={{color:'grey',fontSize:'12px', fontWeight:'lighter', paddingTop:'5px'}}>
                         Dhaka, Bangladesh 
                       </span> 
-                      <span style={{color:'#13541b',fontSize:'15px',paddingTop:'5px'}}> H.S.C in Science</span>
+                      <span  style={{color:'#13541b',fontSize:'15px',paddingTop:'5px'}}> <p1>H.S.C in Science</p1></span>
                    </h2>  
                    </p> 
              </div>
@@ -51,7 +51,7 @@ const ResumeRight = () => {
                       <span style={{color:'grey',fontSize:'12px', fontWeight:'lighter', paddingTop:'5px'}}>
                         Dhaka, Bangladesh 
                       </span> 
-                      <span style={{color:'#13541b',fontSize:'15px',paddingTop:'5px'}}> S.S.C in Science</span>
+                      <span style={{color:'#13541b',fontSize:'15px',paddingTop:'5px'}}><p1>S.S.C in Science</p1> </span>
                    </h2>  
                    </p> 
              </div>
@@ -62,7 +62,7 @@ const ResumeRight = () => {
              <hr width='250px' style={{color:'white'}}/>
              <h2><HiViewList/> KNOWLEDGE</h2>  
              <ul style={{display:'flex', flexDirection:'column', maxWidth:'200px', marginRight:'50px'}}>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting and haxing doneaaaaaaaaaaaaaa </h4>
+              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting and haxing done </h4>
               <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
               <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
               <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>

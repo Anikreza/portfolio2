@@ -5,6 +5,8 @@
     background-color: rgb(171, 202, 189) ;
     overflow-y: scroll;
     overflow-x: hidden;
+    animation: bounceInDown;
+    animation-duration: 1s;
 }
 .resume-main{
     display: flex;
@@ -28,17 +30,23 @@ h2{
     border-style: hidden;
 }
 
-.resume hr{
-    background: linear-gradient(to right, rgb(158, 185, 162), rgb(186, 219, 171));
-    height: 1px;
+.leftul hr{
+    
+    height: 11px;
+    width: 180px;
     border-style: hidden;
+} 
+
+.language hr{
+    opacity: 0;
 }
+
 .resumeleft{
     font-family: Trebuchet MS;
     background-image: linear-gradient(60deg, #c4dbc6,#fafafa,#fafafa, #f1fff2 );  
     border-top-style: outset;
     border-width: thin;
-    border-radius: 30px;
+    border-radius: 0px;
     border-color: rgb(230, 227, 230);
     flex: .5;
     min-height: 70vh;
@@ -55,9 +63,15 @@ h2{
     border-color: rgb(230, 227, 230);
     overflow-y: hidden;
     min-height: 70vh;
-    border-radius: 30px;
+    border-radius: 0px;
 }
 
+.left-box{
+  float: left;
+  padding-left: 45px;
+  padding-right: 5px;
+ 
+}
 
 .education{
     background-color: #f0e4e4; 
@@ -138,6 +152,8 @@ h2{
     
   }
 
+ 
+
   .center{
      
       float: left;
@@ -146,3 +162,83 @@ h2{
   .lang{
       margin-top: 10px;
   }
+
+  
+@media screen and (max-width: 800px) {
+    .resume-main{
+        flex-direction: column;
+        flex: .3;
+    }
+
+    .resume{
+        flex: .65;
+    }
+
+    .circles{
+        margin-top: 1vh;
+        display: block;
+    }
+    .language ul{
+        
+        max-width: 130px;
+    }  
+    .resume-right-title{
+        margin-top: 4vh;
+    } 
+
+    .resumeleft{
+    background-image: linear-gradient(-60deg, #c4dbc6,#fafafa,#fafafa, #f1fff2 );    
+
+    }
+    .education h2{
+        margin-left: 40px;
+        font-size: 17px;
+    }
+
+    .college h2{
+        font-size: 17px;
+        margin-left: 35px;
+    }
+     p1{
+        font-size:10px;
+        
+    }
+    .school h2{
+      
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .knowledge{
+        float: left;
+        margin-left: -30px;  
+    }
+    .center{
+        float: left;
+        margin-left: 30px;  
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .resume-main{
+        flex-direction: column;
+       
+    }
+
+  
+    .education h2{
+       
+        float: left;
+        min-width: 400px;
+    }
+    .college h2{
+        font-size: 13px;
+        float: left;
+        min-width: 400px;
+    }
+    .school h2{
+        float: left;
+        min-width: 400px;
+    }
+}

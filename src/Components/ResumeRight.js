@@ -60,14 +60,11 @@ const ResumeRight = () => {
              <div className='knowledge'>
              <hr width='250px' style={{color:'white'}}/>
              <hr width='250px' style={{color:'white'}}/>
-             <h2><HiViewList/> KNOWLEDGE</h2>  
+             <h2><HiViewList/>Standout Skills</h2>  
              <ul style={{display:'flex', flexDirection:'column', maxWidth:'200px', marginRight:'50px'}}>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting and haxing done </h4>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
-              <h4> <TiTick color='rgb(5, 66, 5)'/> Web Hosting </h4>
+              <h4> <TiTick color='rgb(5, 66, 5)'/> Googling </h4>
+              <h4> <TiTick color='rgb(5, 66, 5)'/> persistence</h4>
+              <h4> <TiTick color='rgb(5, 66, 5)'/> Positivity Catalyst </h4>
              </ul>
            </div>
 
@@ -94,15 +91,6 @@ const ResumeRight = () => {
            
         </div>
         <p> English</p> 
-         <div style={{ display:'flex', flexDirection:'row'}}>
-           <div className='dot'> </div>
-           <div className='dota'> </div>
-           <div className='dota'> </div>
-           <div className='dota'> </div>
-           <div className='dota'> </div>
-         
-        </div>
-        <p> Spanish</p>
         
         
         </div>

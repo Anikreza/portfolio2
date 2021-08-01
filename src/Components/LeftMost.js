@@ -26,7 +26,7 @@ const LeftMost = () => {
             <p1> -</p1> WORKS </NavLink>
             <hr width='60px'/>
 
-            <NavLink className='hoveranim' to="/blog"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <ImBlogger2 style={{marginLeft:'12px'}} size='25px'/>
+            <NavLink className='hoveranim' to="/Blog"  activeStyle={{ fontWeight: "bold",color: "rgb(5, 66, 5)", opacity:'.6'}}> <ImBlogger2 style={{marginLeft:'12px'}} size='25px'/>
             <p1> -</p1>  BLOG </NavLink> 
             <hr width='60px'/>
             

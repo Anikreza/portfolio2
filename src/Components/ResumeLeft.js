@@ -22,7 +22,7 @@ const ResumeLeft = () => {
            
            <div className='circles'>
              
-           <h2> <BsCodeSlash  color='rgb(5, 66, 5)' /> CODING</h2>
+           <h2> <BsCodeSlash  color='rgb(5, 66, 5)' /> FrameWorks</h2>
            <hr width='250px'/>
                   <div class="c100 green p80 center">
                   <span> 80%</span>
@@ -32,17 +32,6 @@ const ResumeLeft = () => {
                   </div>
                 </div>
                 <p>ReactJS</p>
-            
-
-            <div class="c100 green p85 center">
-                  <span>85%</span>
-                  <div class="slice">
-                    <div class="bar"></div>
-                    <div class="fill"></div>
-                 </div>
-            </div>
-              <p> C++ </p>
-            </div>
 
                        
             <div class="c100 green p40 center">
@@ -52,11 +41,22 @@ const ResumeLeft = () => {
                     <div class="fill"></div>
                  </div>
             </div>
-            <p>PHP</p>
+            <p>Laravel</p>
 
+            <div class="c100 green p85 center">
+                  <span>85%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                 </div>
+            </div>
+            </div>
+            <p> Bootstrap </p>
 
+            <hr width='250px' style={{color:'white'}}/>  
+            <hr width='250px' style={{color:'white'}}/> 
             <div className='language'>
-               <hr width='250px' style={{color:'white'}}/>      
+                    
                 <h2><FaRegFlag color='rgb(5, 66, 5)'/> WEB TECH </h2>
 
                   <ul style={{display:'flex', flexDirection:'column', float:'left', width:'230px', borderRadius:'20px', fontSize:'12px'}}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Left.css'
-import a from './a.jpg'
+import a from './aa.jpg'
 import {Animated} from "react-animated-css";
 import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
@@ -31,7 +31,7 @@ const Left = () => {
                          <a className='iconanim' href="https://twitter.com/TanvirRezaAnik1" target='blank'> <AiOutlineTwitter size='20px'/></a>
                      </div> 
                      <br/><br/><br/><br/><hr/> 
-                     <a className='left-footer' href='https://drive.google.com/file/d/1ZUnKgnpWHq4cVRB8YVNlU6meOLVpjLYp/view?usp=sharing'
+                     <a className='left-footer' href='https://drive.google.com/file/d/1BjEKhcixxmQUQoXY-XkEu3Guf7AA0g_v/view?usp=sharing'
                        target='blank'> Download CV</a>                   
                  </div>
                  </Animated>

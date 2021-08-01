@@ -30,10 +30,9 @@ const Work = () => {
                    <ul >
                    <form style={{display:'flex', justifyContent:'space-evenly', width:'300px'}} onSubmit={(e)=>e.preventDefault()}>             
                     
-                    <button   onClick={() => filterItem('web')}>WEB</button>
-                    <button  onClick={() => filterItem('blog')}>BLOG</button>
-                    <button  onClick={() => filterItem('oop')}>OOP</button>
-                    <button  onClick={() => setItems(Menu)}> All</button>
+                    <button  onClick={() => filterItem('live')}>LIVE</button>
+                    <button  onClick={() => filterItem('code')}> NONLIVE</button>
+                    <button  onClick={() => setItems(Menu)}> ALL</button>
                    
                     </form>
                          <hr/>

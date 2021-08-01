@@ -16,7 +16,7 @@ const WorkMap = ( {header, caption, image, category,name,id, link}) => {
              <a href={link} target="blank">    
                 <img src={image} alt={name} />   
               </a>
-                  <p > {name}</p>                                 
+                  <p style={{color:'rgb(5, 66, 5)', fontSize:'23px', fontWeight:'lighter'}}> {name}</p>                                 
           </div>
          </div>
     )

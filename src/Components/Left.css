@@ -57,7 +57,7 @@
    .info{
        position: absolute;
        top:55vh;
-       width: 35vw;
+       width: 35.5vw;
        min-height: 41vh;
        background-color: white;
    }
@@ -71,6 +71,7 @@
     height: 1px;
     border-style: hidden;
    }
+   
    .infoanim{
     animation: mymove 5s infinite;
     -moz-animation: mymove 5s infinite;
@@ -114,12 +115,13 @@
 
     .left{
         flex: .35;
-        margin-top: 10vh;
+        margin-top: 15vh;
         background-color: transparent;
     }
     .photo{
         margin-bottom: 30px;
         height: 270px;
+        width: 125px;
     }
     .photo img{
        
@@ -127,23 +129,29 @@
     }
     .profile{
         margin-top: 10vh;
-        max-height: 30vh;
+        max-height: 90vh;
+    }
+    .stylediv{
+        margin-top:-145px;
+        width: 125px;
     }
    .info{
-      max-height: 10px;
-      max-width: 96px;
+      min-height: 210px;
+      width: 125px;
       margin-top: -100px;
+      
    }
    .info h2{
-       font-size: 13px;
+      
+       font-size: 15px !important;
    }
    .info p{
-       display: none;
+       display: none !important;
    }
-   .indo p1{
-       display: block;
-       
+   .info p1{
+       display: block !important;
    }
+ 
    .bottom{
        padding-top: 30px;
    }
@@ -151,6 +159,10 @@
    .left-footer{
        padding-bottom: -30px;
        font-size: 14px;
+   }
+   .iconanim{
+    
+    padding-left: 3px;
    }
       
    }
@@ -167,6 +179,9 @@
    .photo{
     margin-bottom: 30px;
     height: 430px;
+}
+.stylediv{
+    margin-top:-145px
 }
 
 .info h2{

@@ -1,5 +1,6 @@
 
 import './App.css';
+import React from 'react'
 import { BrowserRouter as Router,Switch, Route} from 'react-router-dom';
 import LeftMost from './Components/LeftMost';
 import Left from './Components/Left';
@@ -7,7 +8,8 @@ import Home from './Components/Home';
 import Resume from './Components/Resume';
 import {Animated} from "react-animated-css";
 import Work from './Components/Work';
-import About from './About';
+import Contact from './Components/Contact';
+import Blog from './Components/Blog';
 
 function App() {
   return (
@@ -20,10 +22,9 @@ function App() {
        <Switch>
           <Route path='/portfolio2/' exact component={Home}/>
           <Route path='/about'  component={Home} />
-          <Route path='/blog'/>
+          <Route path='/Blog' component={Blog}/>
           <Route path='/resume'component={Resume} />
-          <Route path='/contact' />
-          <Route path='/ind'/>
+          <Route path='/contact' component={Contact} />
           <Route path='/works' component={Work}/>
        </Switch>  
     </Router>  

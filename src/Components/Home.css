@@ -3,7 +3,8 @@
    margin-top: 8vh;
    max-height: 84vh;
    overflow-y: scroll;
-   background-color:rgb(255, 255, 255) ;
+   background-image: linear-gradient(-40deg,#eeeeee,#e5f0e5, #c7e9c9 ) ;
+   border-radius: 10px;
 }
 .home h2{
     margin-right: 70%;
@@ -60,10 +61,10 @@
         background-image: linear-gradient(to right, rgb(242, 250, 239), rgb(255, 255, 255),rgb(248, 255, 235));;
     }
     .intro{
-        padding-left: 8vw; 
+        padding-left: 5vw; 
     }
     .intro p{
-        font-size: 12px;
+        font-size: 10px;
     }
     .description{
         padding-left: 30px;

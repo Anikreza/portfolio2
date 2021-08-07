@@ -18,7 +18,6 @@ const Work = () => {
         setItems(updatedItems);     
     }
 
-
   return (
     <div className='work'>
                    <div className='top'>  

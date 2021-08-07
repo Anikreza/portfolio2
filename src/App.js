@@ -18,7 +18,7 @@ function App() {
                
              <LeftMost/>     
              <Left/> 
-                        
+                       
        <Switch>
           <Route path='/portfolio2/' exact component={Home}/>
           <Route path='/about'  component={Home} />

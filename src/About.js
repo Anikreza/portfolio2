@@ -13,8 +13,7 @@ const About = () => {
              <p className='infoanim2'> I Write Codes & Blogs</p>
              <div>
              <p1> Intoxication, & Fuels</p1>
-             </div>
-           
+             </div>     
         </div>
         </Animated>  
       </div>

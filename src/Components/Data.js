@@ -3,7 +3,7 @@ import a from './w.png'
 import b from './ttr.png'
 import c from './t.png'
 import d from './td.png'
-import e from './p1.png'
+import e from './e.png'
 import f from './r.png'
 import g from './cc.png'
 import i from './sw.png'
@@ -15,7 +15,7 @@ const Menu = [
     {
        id: 1,
        image: a,
-       name:"Whatsapp Clone",
+       name:"React Whatsapp Clone (Fullstack)",
        category: "live",
        link:"https://anikreza.github.io/React-WhatsAppClone/",
        header:'',
@@ -25,7 +25,7 @@ const Menu = [
     {
        id: 2,
        image: b,
-       name:"Twitter Clone",
+       name:"React Twitter Clone (Fullstack)",
        category: "live",
        link:"https://anikreza.github.io/React-TwitterClone/",
        header:'',
@@ -35,7 +35,7 @@ const Menu = [
    {
     id: 3,
     image: h,
-    name:"Amazon Clone",
+    name:"React Amazon Clone (Fullstack)",
     category: "live",
     link:"https://anikreza.github.io/Full-Stack-Amazon-Clone/",
     header:'',
@@ -45,7 +45,7 @@ const Menu = [
 {
     id: 6,
     image: f,
-    name:"A Racipe App",
+    name:"React Racipe App",
     category: "live",
     link:"https://anikreza.github.io/React-RecipeApp-Using-API/",
     header:'',
@@ -56,7 +56,7 @@ const Menu = [
     {
        id: 7,
        image: c,
-       name:"Travel Blog",
+       name:"React Travel Blog",
        category: "live",
        link:"https://anikreza.github.io/FirstReactApp-TravelBlog/",
        header:'',
@@ -67,7 +67,7 @@ const Menu = [
     {
        id: 4,
        image: d,
-       name:"ToDO App",
+       name:"React CRUD App",
        category: "live",
        link:"https://anikreza.github.io/React-ToDoApp/",
        header:'',
@@ -78,9 +78,9 @@ const Menu = [
     {
        id: 5,
        image: e,
-       name:"Basic Portfolio",
+       name:"React E-Commerce Dashboard With Laravel API",
        category: "live",
-       link:"https://anikreza.github.io/React-portfolio/",
+       link:"https://anikreza.github.io/React-Laravel-API/",
        header:'',
        caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
 

@@ -1,12 +1,12 @@
 .blog{
-    flex: .56;
+    flex: .7;
     margin-top: 8vh;
     max-height: 84vh;
     overflow-y: scroll;
-    background-image: linear-gradient(-40deg,#eeeeee,#e5f0e5, #aff5b3 ) ;
+    background-image: linear-gradient(-40deg,#eeeeee,#e5f0e5, #dbf3dc ) ;
     font-family: verdana;
-    animation: bounceInRight;
-    animation-duration: 2s;
+    animation: bounceInLeft;
+    animation-duration: 1.5s;
     overflow-x: hidden;
     border-radius: 10px;
 }
@@ -24,10 +24,15 @@
 }
 .header-container{
     margin-top: 30px;
-    margin-left: 10%;
-    max-width: 80%;
+    margin-left: 20%;
+    max-width: 60%;
     text-align: center;
     
+    font-weight: lighter;
+}
+.header-container p{
+    font-size: 14px;
+    font-family: sans-serif;
     font-weight: lighter;
 }
 .blog-main{

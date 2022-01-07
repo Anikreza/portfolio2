@@ -1,29 +1,33 @@
 .home{
-   flex: .54;
+   flex: .7;
    margin-top: 8vh;
    max-height: 84vh;
    overflow-y: scroll;
-   background-image: linear-gradient(-40deg,#eeeeee,#e5f0e5, #c7e9c9 ) ;
+   background-image: linear-gradient(-40deg,#ffffff,#e3f0e2, #ffffff ) ;
    border-radius: 10px;
 }
 .home h2{
     margin-right: 70%;
 }
 .home hr{
-    background: linear-gradient(to right, rgb(253, 253, 253),rgb(168, 167, 167), rgb(255, 255, 255));
+    background: linear-gradient(to right, rgb(235, 240, 233),rgb(211, 201, 201), rgb(234, 241, 236));
     height: 1px;
     border-style: hidden;
 }
 
   .intro{
-    padding-top: 20px;  
-    padding-left: 3vw;  
-    max-width: 40vw;
+    padding-top: 40px;  
+    padding-left: 13vw;
+    max-width: 35vw;
 
   }
 
   .intro p{
-      color: rgb(39, 39, 35);
+      color: rgb(23, 48, 36);
+      font-family:cursive; 
+      letter-spacing: 1px;
+      font-size: 18px;
+      font-weight: lighter;
   }
   .description{
       padding-top: 100px;

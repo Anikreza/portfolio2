@@ -1,23 +1,23 @@
 
-import './App.css';
+import './Styles/App.css';
 import React from 'react'
 import { BrowserRouter as Router,Switch, Route} from 'react-router-dom';
-import LeftMost from './Components/LeftMost';
-import Left from './Components/Left';
+import SideBar from './Components/sideBar';
+import PersonInfo from './Components/PersonInfo';
 import Home from './Components/Home';
-import Resume from './Components/Resume';
+import Resume from './Components/Resume/Resume';
 import {Animated} from "react-animated-css";
-import Work from './Components/Work';
+import Work from './Components/Work/Work';
 import Contact from './Components/Contact';
-import Blog from './Components/Blog';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
     <div className="App">
            <Router> 
                
-             <LeftMost/>     
-             <Left/> 
+             <SideBar/>
+             <PersonInfo/>
                        
        <Switch>
           <Route path='/portfolio2/' exact component={Home}/>
@@ -28,7 +28,7 @@ function App() {
           <Route path='/works' component={Work}/>
        </Switch>  
     </Router>  
-    </div>
+    </div> 
   );
 }
 

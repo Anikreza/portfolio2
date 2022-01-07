@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './Styles/About.css'
 import {Animated} from "react-animated-css";
 
 const About = () => {

@@ -1,37 +1,40 @@
 
-import a from './w.png'
-import b from './ttr.png'
-import c from './t.png'
-import d from './td.png'
-import e from './e.png'
-import f from './r.png'
-import g from './cc.png'
-import i from './sw.png'
-import h from './azn.png'
+import a from '../../Images/w.png'
+import b from '../../Images/ttr.png'
+import c from '../../Images/t.png'
+import d from '../../Images/td.png'
+import e from '../../Images/e.png'
+import f from '../../Images/r.png'
+import g from '../../Images/cc.png'
+import i from '../../Images/sw.png'
+import h from '../../Images/azn.png'
+import v from '../../Images/v.png'
 
 
 
 const Menu = [
+    
     {
-       id: 1,
-       image: a,
-       name:"React Whatsapp Clone (Fullstack)",
-       category: "live",
-       link:"https://anikreza.github.io/React-WhatsAppClone/",
-       header:'',
-       caption:"",
-   },
+        id: 2,
+        image: b,
+        name:"React Twitter Clone (Fullstack, Interactive, Responsive)",
+        category: "live",
+        link:"https://anikreza.github.io/React-TwitterClone/",
+        header:'',
+        caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
  
+    },
     {
-       id: 2,
-       image: b,
-       name:"React Twitter Clone (Fullstack)",
-       category: "live",
-       link:"https://anikreza.github.io/React-TwitterClone/",
-       header:'',
-       caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
+        id: 7,
+        image: c,
+        name:"React Travel Blog(Interactive, Responsive)",
+        category: "live",
+        link:"https://anikreza.github.io/tanventure/",
+        header:'',
+        caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
+    
+    },
 
-   },
    {
     id: 3,
     image: h,
@@ -43,9 +46,28 @@ const Menu = [
 
 },
 {
+    id: 1,
+    image: a,
+    name:"React Whatsapp Clone (Fullstack)",
+    category: "live",
+    link:"https://anikreza.github.io/React-WhatsAppClone/",
+    header:'',
+    caption:"",
+},
+{
+    id: 13,
+    image: v,
+    name:"Vue Todo-Application",
+    category: "live",
+    link:"https://anikreza.github.io/Vue-Todo-With-API/",
+    header:'',
+    caption:"",
+},
+
+{
     id: 6,
     image: f,
-    name:"React Racipe App",
+    name:"React Racipe App (API)",
     category: "live",
     link:"https://anikreza.github.io/React-RecipeApp-Using-API/",
     header:'',
@@ -53,16 +75,7 @@ const Menu = [
 
 },
 
-    {
-       id: 7,
-       image: c,
-       name:"React Travel Blog",
-       category: "live",
-       link:"https://anikreza.github.io/FirstReactApp-TravelBlog/",
-       header:'',
-       caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
-
-   },
+   
  
     {
        id: 4,
@@ -79,8 +92,18 @@ const Menu = [
        id: 5,
        image: e,
        name:"React E-Commerce Dashboard With Laravel API",
-       category: "live",
+       category: "code",
        link:"https://anikreza.github.io/React-Laravel-API/",
+       header:'',
+       caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
+
+   },
+    {
+       id: 12,
+       image: e,
+       name:"Laravel E-Commerce App(Basic)",
+       category: "code",
+       link:"https://github.com/Anikreza/First-LaravelApp-with-Blade",
        header:'',
        caption:" Hey there, This is the Caption  Hey there, This is the Caption Hey there, This is the Caption Hey there, This is the Caption",
 

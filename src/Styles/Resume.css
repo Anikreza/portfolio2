@@ -1,5 +1,5 @@
 .resume{
-    flex: .58;
+    flex: .7;
     margin-top: 8vh;
     max-height: 84vh;
     background-color: rgb(171, 202, 189) ;
@@ -37,7 +37,9 @@ h2{
     width: 180px;
     border-style: hidden;
 } 
-
+.language ul{
+    margin-left: 4vw;
+}
 .language hr{
     opacity: 0;
 }
@@ -65,27 +67,34 @@ h2{
     overflow-y: hidden;
     min-height: 70vh;
     border-radius: 0px;
+
 }
 
 .left-box{
   float: left;
-  padding-left: 45px;
+  margin-left: 95px;
   padding-right: 5px;
  
 }
 
 .education{
-    background-color: #f0e4e4; 
-    max-width: fit-content;
+    background-color: #f0e4e4;
+    padding-right: 55px;
+    margin-left: 1%;
 }
 
 .college{
     background-color: #dbdff3;
-    max-width: fit-content;
+    padding-right: 55px;
+    margin-left: 0.1%;
+
 }
 
 .school{
     background-color: #c0c0c0;
+    padding-right: 45px;
+    margin-left: 1%;
+
 }
 
 .circles{

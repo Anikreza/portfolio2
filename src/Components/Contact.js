@@ -1,9 +1,9 @@
 import React, {useState,useRef, useEffect} from "react";
-import './Contact.css'
+import '../Styles/Contact.css'
 import {GoogleLogin} from 'react-google-login'
 import { BiMailSend} from 'react-icons/bi';
 import { BiSend} from 'react-icons/bi';
-import db from './firebase'
+import db from './Database/firebase'
 import firebase from 'firebase'
 
 const Contact = () => {
@@ -54,7 +54,7 @@ const Contact = () => {
                  <hr/>
               
                 
-                 <p2> Mail: <span> <a href='https://mail.google.com' target='blank'> 
+                 <p2> Mail: <span> <a href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtXPVgvThNgwfhHXFhRsWzXNcjSMhkPrGmbFHnjcMkvsXRctsGmgRqSkNdvfnHtBNCqwJM' target='blank'> 
               tanvirrezaanik@gmail.com </a> </span></p2> <br/>
                 <p2> Call: <span> <p1>+88 01687005154 </p1></span> <br/><br/></p2>
                 <hr/>

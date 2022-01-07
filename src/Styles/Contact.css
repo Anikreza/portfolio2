@@ -6,7 +6,7 @@
     background-image: linear-gradient(40deg,#eeeeee,#e5f0e5, #aff5b3 ) ;
     font-family: verdana;
     animation: bounceInRight;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     overflow-x: hidden;
     border-radius: 10px;
 }
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 800px){
     .contact{
-        flex: .55;
+        flex: 1;
         margin-left: 3px;
     }
 

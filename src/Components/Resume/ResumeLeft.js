@@ -2,8 +2,8 @@ import React from 'react'
 import { FaBriefcase } from 'react-icons/fa';
 import { BsCodeSlash } from 'react-icons/bs';
 import { FaRegFlag} from 'react-icons/fa';
-import a from './a.jpg'
-import './circle.css'
+import a from '../../Images/a.jpg'
+import '../../Styles/circle.css'
 
 
 const ResumeLeft = () => {
@@ -24,18 +24,18 @@ const ResumeLeft = () => {
              
            <h2> <BsCodeSlash  color='rgb(5, 66, 5)' /> FrameWorks</h2>
            <hr width='250px'/>
-                  <div class="c100 green p80 center">
-                  <span> 80%</span>
+                  <div class="c100 green p90 center">
+                  <span> 90%</span>
                   <div class="slice">
                     <div class="bar"></div>
                     <div class="fill"></div>
                   </div>
                 </div>
-                <p>ReactJS</p>
+                <p>React</p>
 
                        
-            <div class="c100 green p40 center">
-                  <span>40%</span>
+            <div class="c100 green p75 center">
+                  <span>75%</span>
                   <div class="slice">
                     <div class="bar"></div>
                     <div class="fill"></div>
@@ -43,15 +43,15 @@ const ResumeLeft = () => {
             </div>
             <p>Laravel</p>
 
-            <div class="c100 green p85 center">
-                  <span>85%</span>
+            <div class="c100 green p70 center">
+                  <span>70%</span>
                   <div class="slice">
                     <div class="bar"></div>
                     <div class="fill"></div>
                  </div>
             </div>
             </div>
-            <p> Bootstrap </p>
+            <p> Vue</p>
 
             <hr width='250px' style={{color:'white'}}/>  
             <hr width='250px' style={{color:'white'}}/> 
@@ -77,7 +77,7 @@ const ResumeLeft = () => {
                       </p>   
 
                     <p style={{backgroundColor:'grey', borderRadius:'20px'}}>
-                       <p1 className='hide' style={{color:'white', backgroundColor:'green',float:'left', width:'50%', borderRadius:'20px', fontSize:'12px'}}>  MySQL </p1>
+                       <p1 className='hide' style={{color:'white', backgroundColor:'green',float:'left', width:'70%', borderRadius:'20px', fontSize:'12px'}}>  MySQL </p1>
                       </p>  
   
                   </ul>

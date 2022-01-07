@@ -1,6 +1,6 @@
 
-import i from './n.jpg'
-import j from './b.jpg'
+import i from '../../Images/n.jpg'
+import j from '../../Images/b.jpg'
 
 
 

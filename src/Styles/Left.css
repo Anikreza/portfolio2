@@ -1,24 +1,24 @@
 .left{
-    flex: .4;
+    flex: .3;
     margin-top: 4vh;
-    background-color:rgb(116, 136, 127) ;
+    background-color: rgb(255, 255, 255);
     height: 87vh;
 }
 .profile{
-    margin-left: .6vw;
+    margin-left: .1vw;
     margin-top: 1.5vh;
     height: 84vh;
 }
 
 .photo{
-    height: 80vh;
+    height: 63vh;
     position: relative;
     width: 100%;
     animation: bounceInDown;
     animation-duration: 1.5s;
 }
 .photo img{
-    width: 100%;
+    width: 55%;
 }
 
 .stylediv{
@@ -56,9 +56,9 @@
    }
    .info{
        position: absolute;
-       top:55vh;
-       width: 35.5vw;
-       min-height: 41vh;
+       top:45vh;
+       width: 26.5vw;
+       min-height: 42vh;
        background-color: white;
    }
 
@@ -78,6 +78,7 @@
     -webkit-animation: mymove 5s infinite;
     -o-animation: mymove 5s infinite;    
     color: rgb(5, 66, 5);
+       min-width: 140px;
    }
 
    .iconanim{
@@ -106,26 +107,12 @@
        color: rgb(5, 66, 5);
    }
 
-
-
-
-
-
    @media screen and (max-width: 800px) {
 
     .left{
-        flex: .35;
+        flex: .15;
         margin-top: 15vh;
         background-color: transparent;
-    }
-    .photo{
-        margin-bottom: 30px;
-        height: 270px;
-        width: 125px;
-    }
-    .photo img{
-       
-        width: 100%;
     }
     .profile{
         margin-top: 10vh;
@@ -167,6 +154,9 @@
       
    }
    @media screen and (max-width: 1000px){
+       .left{
+           display: none;
+       }
     .profile{
         margin-top: 10vh;
         max-height: 60vh;

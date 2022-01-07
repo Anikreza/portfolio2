@@ -1,8 +1,8 @@
 
 
 import React, {useState} from 'react'
-import Menu from "./Data";
-import './gallery.css'
+import Menu from "../Blog/Data";
+import '../../Styles/gallery.css'
 import { BsSearch } from 'react-icons/bs';
 import WorkMap from './WorkMap';
 import {Animated} from "react-animated-css";

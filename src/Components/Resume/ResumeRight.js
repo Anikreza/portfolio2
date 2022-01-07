@@ -2,7 +2,7 @@ import React from 'react'
 import { MdSchool} from 'react-icons/md';
 import { HiViewList} from 'react-icons/hi';
 import { TiTick} from 'react-icons/ti';
-import a from './a.jpg'
+import a from '../../Images/a.jpg'
 import {Animated} from "react-animated-css";
 import { FaRegFlag} from 'react-icons/fa';
 

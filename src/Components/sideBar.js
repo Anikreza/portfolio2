@@ -1,5 +1,5 @@
 import React from 'react'
-import './LeftMost.css'
+import '../Styles/LeftMost.css'
 import { BrowserRouter as Router, Route, Link, NavLink, BrowserRouter } from "react-router-dom";
 import { ImBlogger2 } from 'react-icons/im';
 import { FaAdn } from 'react-icons/fa';
@@ -8,7 +8,7 @@ import { ImBriefcase } from 'react-icons/im';
 import { AiTwotoneMail } from 'react-icons/ai';
 import {Animated} from "react-animated-css";
 
-const LeftMost = () => {
+const SideBar = () => {
     return (
         <div className='leftmost'>
             <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true} >
@@ -39,4 +39,4 @@ const LeftMost = () => {
     )
 }
 
-export default LeftMost
+export default SideBar

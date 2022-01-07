@@ -1,12 +1,14 @@
 import React from 'react'
-import './blog.css'
+import '../../Styles/blog.css'
 import Data from './BlogData'
 
 
 const Blog = () => {
     return (
         <div className='blog'>
+            
             <div className='header-container'>
+            
             <p> I write travel blogs sometimes! You can take a glance at couple of the attachments below</p>
             </div>
             <hr width='450px' style={{color:'white'}}/>

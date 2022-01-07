@@ -1,13 +1,13 @@
 import React from 'react'
-import './Left.css'
-import a from './aa.jpg'
+import '../Styles/Left.css'
+import a from '../Images/asd.png'
 import {Animated} from "react-animated-css";
 import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineFacebook } from 'react-icons/ai';
 import { AiOutlineGithub } from 'react-icons/ai';
 
-const Left = () => {
+const PersonInfo = () => {
     return (
         <div className='left'>
             <div className='profile'>
@@ -31,7 +31,7 @@ const Left = () => {
                          <a className='iconanim' href="https://twitter.com/TanvirRezaAnik1" target='blank'> <AiOutlineTwitter size='20px'/></a>
                      </div> 
                      <br/><br/><br/><br/><hr/> 
-                     <a className='left-footer' href='https://drive.google.com/file/d/1BjEKhcixxmQUQoXY-XkEu3Guf7AA0g_v/view?usp=sharing'
+                     <a className='left-footer' href='https://drive.google.com/file/d/1dTftnwX2ptW2kn4k_by6H3Cnf4k2beM4/view?usp=sharing'
                        target='blank'> Download CV</a>                   
                  </div>
                  </Animated>
@@ -41,4 +41,4 @@ const Left = () => {
     )
 }
 
-export default Left
+export default PersonInfo

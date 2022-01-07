@@ -1,5 +1,5 @@
 import React from 'react'
-import './Resume.css'
+import '../../Styles/Resume.css'
 import ResumeLeft from './ResumeLeft'
 import ResumeRight from './ResumeRight'
 

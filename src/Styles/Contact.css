@@ -1,0 +1,116 @@
+.contact{
+    flex: .4;
+    margin-top: 8vh;
+    max-height: 84vh;
+    overflow-y: scroll;
+    background-image: linear-gradient(40deg,#eeeeee,#e5f0e5, #aff5b3 ) ;
+    font-family: verdana;
+    animation: bounceInRight;
+    animation-duration: 1.5s;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.login{
+
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0vw;
+    margin-left: 18%;
+}
+
+.login form > input{
+    text-align: center;
+    min-width: 25vw !important;
+    margin-left: -1vw;
+    margin-top: 3vw;
+    min-height: 18vh !important;
+    background-color: rgb(249, 253, 247);
+    border-style: outset;
+    border-radius: 10%;
+    word-break: break-all;
+    
+}
+
+.login form > input:focus{
+    outline:none;
+}
+
+.login form > button{
+
+   border-style: hidden; 
+ 
+}
+.icon:hover{
+    cursor: pointer;
+}
+.before-login{
+    
+   
+    margin-top: 19vh;
+}
+.before-login a{
+    text-decoration: none;
+    color: rgb(7, 63, 7);
+    font-size: 14px;
+}
+
+.before-login p1{
+    color: rgb(7, 63, 7);
+    font-size: 12px;
+}
+.before-login h2{
+    color: rgb(1, 10, 1);
+    font-size: 17px;
+}
+.before-login hr{
+    background: linear-gradient(40deg,#ffffff,#d3d4d2, #f1fff2 ); 
+    height: 1px;
+    border-style: hidden;
+}
+.gg:hover{
+    opacity: .94;
+    animation: shake 5s;
+}
+
+@media screen and (max-width: 800px){
+    .contact{
+        flex: 1;
+        margin-left: 3px;
+    }
+
+    .before-login{
+    
+   
+        margin-top: 8vh;
+    }
+    .before-login a{
+    
+     
+        font-size: 11px;
+    }
+    
+    .before-login p1{
+       
+        font-size: 9px;
+    }
+    .before-login h2{
+     
+        font-size: 13px;
+    }
+    .before-login p2{
+     
+        font-size: 9px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .gg{
+       
+    }
+    .login form > input{
+      margin-top: 9vh;
+      margin-left: -8vw;
+    }
+}

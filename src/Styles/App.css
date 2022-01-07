@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-image: linear-gradient(-30deg, #ffffff 0%, #747573 100%);
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 800px) {
+  .App{
+    background-image: linear-gradient(60deg, rgb(221, 228, 214),rgb(243, 243, 240));
+  }
+}
+
